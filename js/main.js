@@ -15,6 +15,7 @@ const searchStates = async searchText => {
 
   if (searchText.length === 0) {
     matches = [];
+    matchList.innerHTML = "";
   }
 
   outputHtml(matches);
@@ -35,7 +36,7 @@ const outputHtml = matches => {
       </div>`
       )
       .join("");
-    console.log(html);
+    matchList.innerHTML = html;
   }
 };
 
