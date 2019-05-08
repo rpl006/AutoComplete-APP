@@ -1,0 +1,19 @@
+{
+  "name": "autocomplete_json",
+  "version": "1.0.0",
+  "description": "A simple web app that searches a JSON file using the Fetch API, Async/Await, Regex and high order array methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpl006/AutoComplete-APP.git"
+  },
+  "author": "Ram Lamichhane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpl006/AutoComplete-APP/issues"
+  },
+  "homepage": "https://github.com/rpl006/AutoComplete-APP#readme"
+}
